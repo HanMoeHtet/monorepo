@@ -1,0 +1,5 @@
+{
+  "verbose": false,
+  "watch": ["build"],
+  "ext": "ts,tsx,js,jsx,json"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/common",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "author": "Han Moe Htet",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "rimraf build && tsc"
+  },
+  "files": [
+    "build"
+  ],
+  "type": "module"
+}

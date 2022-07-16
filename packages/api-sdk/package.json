@@ -1,0 +1,20 @@
+{
+  "name": "@monorepo/api-sdk",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "author": "Han Moe Htet",
+  "license": "MIT",
+  "dependencies": {
+    "@monorepo/common": "*",
+    "axios": "^0.27.2"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "rimraf build && tsc"
+  },
+  "files": [
+    "build"
+  ],
+  "type": "module"
+}
